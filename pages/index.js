@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Navbar1 from '../comps/navbar1'
-import Footer from '../comps/footer'
 
 export default function Home() {
   return (
@@ -14,15 +12,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar1 />
       <main className={styles.main}>
 
         <a href="https://www.freecodecamp.org/news/the-next-js-handbook/" >
-          <img className={styles.img1} src="/nextimg.png" />
+          <Image className={styles.img1} src="/nextimg.png" height={290} width={900} />
         </a>
 
       </main>
-      <Footer />
     </div>
   )
 }

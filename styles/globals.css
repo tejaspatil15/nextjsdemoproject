@@ -1,11 +1,13 @@
 html,
+
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background-image: url('/backgd.png');
-  
+    /* background:aquamarine; */
+     
   }
 a {
   color: inherit;
@@ -14,4 +16,15 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.not-found {
+  margin-top: 10ch;
+  margin-bottom: 30ch;
+  color: azure;
+  text-align: center;
+}
+.not-found a {
+  color: rgb(33, 219, 219);
+  text-decoration: underline;
 }
