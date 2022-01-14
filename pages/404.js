@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useRouter } from 'next/router';
 import { useEffect } from "react";
+import Head from 'next/head'
 
 const NotFound = () => {
 
@@ -12,7 +13,7 @@ const NotFound = () => {
 
             router.push('/');
 
-        }, 3000)
+        }, 5000)
 
     }, [])
 
@@ -26,7 +27,7 @@ const NotFound = () => {
             </Head>
             <h1>OoOoopsss...</h1>
             <h2>Page Not Found</h2>
-            <p>Go back to the <Link href="/"><a>HOMEPAGE</a></Link></p>
+            <p>Page is redirecting to <Link href="/"><a>HOMEPAGE</a></Link> in 5 sec</p>
         </div>
     );
 }
