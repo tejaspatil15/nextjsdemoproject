@@ -1,10 +1,12 @@
 import Link from 'next/link'
+import styles from '../styles/Home.module.css'
+
 const Navbar1 = () => {
 
     return (
         <>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
+                <div class="container-fluid" id={styles.navbar}>
                     <Link href="/"><a class="navbar-brand" href="#">Navbar</a></Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -32,6 +34,16 @@ const Navbar1 = () => {
                     </div>
                 </div>
             </nav>
+            {/* <div className={styles.container2} class="container-fluid" >
+                <Link href="/"><a>NavBar</a></Link>
+                <Link href="/about"><a>About us</a></Link>
+                <Link href="/contact"><a>Contact us</a></Link>
+                <Link href="/components/new"><a>New</a></Link>
+
+                <button id={styles.button2} type="submit" name="button2" >Q</button>
+                <input id={styles.searchbar2} type="text" name="searchQueryInput" placeholder="Search doctor.." />
+              
+            </div> */}
         </>
     )
 }

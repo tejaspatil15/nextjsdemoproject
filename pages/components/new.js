@@ -24,6 +24,7 @@ const New = () => {
           I find Next.js an awesome tool to create Web Applications, and at the end of this post I hope you will be <br /> as excited New it as I am. And I hope it will help you learn Next.js!
         </p>
       </div>
+      
     </>
   )
 }
