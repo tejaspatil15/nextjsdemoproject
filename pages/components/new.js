@@ -19,9 +19,9 @@ const New = () => {
 
       <div className={styles.text}>
         <p className={styles.text3}>
-          It's ideal for you if you have zero to little knowledge of Next.js, you have used React in the past, <br /> and you are looking forward diving more into the React ecosystem, in particular server-side rendering. <br />
+          Its ideal for you if you have zero to little knowledge of Next.js, you have used React in the past, <br /> and you are looking forward diving more into the React ecosystem, in particular server-side rendering. <br />
 
-          I find Next.js an awesome tool to create Web Applications, and at the end of this post I hope you'll be <br /> as excited New it as I am. And I hope it will help you learn Next.js!
+          I find Next.js an awesome tool to create Web Applications, and at the end of this post I hope you will be <br /> as excited New it as I am. And I hope it will help you learn Next.js!
         </p>
       </div>
     </>
